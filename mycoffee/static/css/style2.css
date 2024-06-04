@@ -1,7 +1,7 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
-    background-image: url(Coffee12.jpeg);
+    background-image: url('/mycoffee/static/images/registerbg.jpeg');
     background-position: center;
     background-size: cover;
     margin: 0;

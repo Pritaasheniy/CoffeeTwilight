@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.shortcuts import render , redirect
 from . forms import CreateUserForm, LoginForm
 from django.contrib.auth.decorators import login_required
@@ -47,6 +46,9 @@ def custom_password_reset_confirm(request, uidb64=None, token=None):
 def homepage(request):
     
     return render(request, 'cafe/index.html')
+
+def home(request):
+ return render(request, 'home.html',)
 
 
 #REGISTER
