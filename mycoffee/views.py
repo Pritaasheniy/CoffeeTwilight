@@ -64,7 +64,7 @@ def register(request):
             
             form.save()
             
-            return redirect ("registration/login")
+            return redirect ("login")
     
     
     context = {'registrationform':form}
