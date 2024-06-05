@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cupSizes: [
             { id: 5, image: '/mycoffee/static/images/smallcup.png', title: 'Small(10oz)', price: 1 },
             { id: 6, image: '/mycoffee/static/images/mediumcup.png', title: 'Regular(12oz)', price: 1 },
-            { id: 7, image: '/static/images/largecup.png', title: 'Large(16oz)', price: 1 },
+            { id: 7, image: '/mycoffee/static/images/largecup.png', title: 'Large(16oz)', price: 1 },
         ],
         temperatures: [
             { id: 8, image: '/mycoffee/static/images/hot.png', title: 'Hot', price: 1 },
@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
         coffeeBeans: [
             { id: 10, image: '/mycoffee/static/images/arabica.jpg', title: 'Arabica', price: 0.0 },
             { id: 11, image: '/mycoffee/static/images/robusta.jpg', title: 'Robusta', price: 0.0 },
-            { id: 12, image: '/static/images/excelsa.jpg', title: 'Excelsa', price: 0.0 },
-            { id: 13, image: '/static/images/liberica.jpg', title: 'Liberica', price: 0.0 },
+            { id: 12, image: '/mycoffee/static/images/excelsa.jpg', title: 'Excelsa', price: 0.0 },
+            { id: 13, image: '/mycoffee/static/images/liberica.jpg', title: 'Liberica', price: 0.0 },
         ],
         milkTypes: [
             { id: 14, image: '/mycoffee/static/images/coconutmilk.png', title: 'Coconut Milk', price: 1 },
