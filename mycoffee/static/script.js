@@ -1,43 +1,43 @@
 document.addEventListener('DOMContentLoaded', function() {
     const product = {
         coffeeTypes: [
-            { id: 0, image: '/static/images/flatwhite.jpg', title: 'Flat White', price: 12 },
-            { id: 1, image: '/static/images/cappuchino.jpg', title: 'Cappuchino', price: 13 },
-            { id: 2, image: '/static/images/frappuchino.jpg', title: 'Frappuchino', price: 14 },
-            { id: 3, image: '/static/images/latte.jpg', title: 'Latte', price: 12 },
-            { id: 4, image: '/static/images/mocha.jpg', title: 'Mocha', price: 12 },
+            { id: 0, image: '/mycoffee/static/images/flatwhite.jpg', title: 'Flat White', price: 12 },
+            { id: 1, image: '/mycoffee/static/images/cappuchino.jpg', title: 'Cappuchino', price: 13 },
+            { id: 2, image: '/mycoffee/static/images/frappuchino.jpg', title: 'Frappuchino', price: 14 },
+            { id: 3, image: '/mycoffee/static/images/latte.jpg', title: 'Latte', price: 12 },
+            { id: 4, image: '/mycoffee/static/images/mocha.jpg', title: 'Mocha', price: 12 },
         ],
         cupSizes: [
-            { id: 5, image: '/static/images/smallcup.png', title: 'Small(10oz)', price: 1 },
-            { id: 6, image: '/static/images/mediumcup.png', title: 'Regular(12oz)', price: 1 },
+            { id: 5, image: '/mycoffee/static/images/smallcup.png', title: 'Small(10oz)', price: 1 },
+            { id: 6, image: '/mycoffee/static/images/mediumcup.png', title: 'Regular(12oz)', price: 1 },
             { id: 7, image: '/static/images/largecup.png', title: 'Large(16oz)', price: 1 },
         ],
         temperatures: [
-            { id: 8, image: '/static/images/hot.png', title: 'Hot', price: 1 },
-            { id: 9, image: '/static/images/cold.png', title: 'Cold', price: 1 },
+            { id: 8, image: '/mycoffee/static/images/hot.png', title: 'Hot', price: 1 },
+            { id: 9, image: '/mycoffee/static/images/cold.png', title: 'Cold', price: 1 },
         ],
         coffeeBeans: [
-            { id: 10, image: '/static/images/arabica.jpg', title: 'Arabica', price: 0.0 },
-            { id: 11, image: '/static/images/robusta.jpg', title: 'Robusta', price: 0.0 },
+            { id: 10, image: '/mycoffee/static/images/arabica.jpg', title: 'Arabica', price: 0.0 },
+            { id: 11, image: '/mycoffee/static/images/robusta.jpg', title: 'Robusta', price: 0.0 },
             { id: 12, image: '/static/images/excelsa.jpg', title: 'Excelsa', price: 0.0 },
             { id: 13, image: '/static/images/liberica.jpg', title: 'Liberica', price: 0.0 },
         ],
         milkTypes: [
-            { id: 14, image: '/static/images/coconutmilk.png', title: 'Coconut Milk', price: 1 },
-            { id: 15, image: '/static/images/freshmilk.png', title: 'Fresh Milk', price: 1 },
-            { id: 16, image: '/static/images/creammilk.png', title: 'Cream Milk', price: 1 },
+            { id: 14, image: '/mycoffee/static/images/coconutmilk.png', title: 'Coconut Milk', price: 1 },
+            { id: 15, image: '/mycoffee/static/images/freshmilk.png', title: 'Fresh Milk', price: 1 },
+            { id: 16, image: '/mycoffee/static/images/creammilk.png', title: 'Cream Milk', price: 1 },
         ],
         blendingOptions: [
-            { id: 17, image: '/static/images/almond.png', title: 'Almond', price: 1.00 },
-            { id: 18, image: '/static/images/hazelnut.png', title: 'Hazelnut', price: 1 },
-            { id: 19, image: '/static/images/cinnamon.png', title: 'Cinnamon', price: 1 },
-            { id: 20, image: '/static/images/vanilla.png', title: 'Vanilla', price: 1 },
+            { id: 17, image: '/mycoffee/static/images/almond.png', title: 'Almond', price: 1.00 },
+            { id: 18, image: '/mycoffee/static/images/hazelnut.png', title: 'Hazelnut', price: 1 },
+            { id: 19, image: '/mycoffee/static/images/cinnamon.png', title: 'Cinnamon', price: 1 },
+            { id: 20, image: '/mycoffee/static/images/vanilla.png', title: 'Vanilla', price: 1 },
         ],
         toppings: [
-            { id: 21, image: '/static/images/whippedcream.png', title: 'Whipped Cream', price: 0.0 },
-            { id: 22, image: '/static/images/chocolatesyrup.png', title: 'Chocolate Syrup', price: 0.0 },
-            { id: 23, image: '/static/images/chocolatechip.png', title: 'Chocolate Chip', price: 0.0 },
-            { id: 24, image: '/static/images/caramel.png', title: 'Caramel Drizzle', price: 0.0 },
+            { id: 21, image: '/mycoffee/static/images/whippedcream.png', title: 'Whipped Cream', price: 0.0 },
+            { id: 22, image: '/mycoffee/static/images/chocolatesyrup.png', title: 'Chocolate Syrup', price: 0.0 },
+            { id: 23, image: '/mycoffee/static/images/chocolatechip.png', title: 'Chocolate Chip', price: 0.0 },
+            { id: 24, image: '/mycoffee/static/images/caramel.png', title: 'Caramel Drizzle', price: 0.0 },
         ]
     };
 
